@@ -1,0 +1,96 @@
+   /* we can change the behaviour of tags by changing display property to inline / block / inline-block/ none */
+   table,
+   th,
+   td {
+       border: 1px;
+       box-shadow: black;
+       font-family: 'Times New Roman', Times, serif;
+       align-content: center;
+       padding: 10px 10px 10px 10px;
+   }
+  nav{
+    margin-top: 0%;
+    margin-left:0%;
+    margin-right:0%;
+    height:30px;
+    width: 100%;
+    background-attachment: fixed;
+    background-color:rgba(0, 0, 0, 0.333);
+  }
+   .downbar{
+       background-color:#C9D8B6;
+   }
+  
+  iframe{
+    height:600px;
+    width:800px;
+  }
+
+   body {
+       text-align: center;
+       background-image: url(whitehoneycomb.jpg);
+       background-size: 100%;
+       background-attachment: fixed;
+   }
+
+   hr {
+      align:center;
+       border-color: black;
+       border-style: none;
+       border-top-style: dotted;
+       border-width: 5px;
+       width: 5%;
+   }
+
+   .name {
+       text-shadow: 6px 6px 8px grey;
+   }
+   li{
+    text-align: left;
+   }
+
+  ol,ul{
+    text-align:left;
+    display:inline-block;
+  }
+   h1 {
+       font-style: inherit;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       /*text-shadow: 4px 4px 6px grey;*/
+   }
+
+   .btn{
+    line-height:15px;
+   }
+   .btn {
+    background: #FDA769;
+    background-image: -webkit-linear-gradient(top, #FDA769, #ffdda3);
+    background-image: -moz-linear-gradient(top, #FDA769, #ffdda3);
+    background-image: -ms-linear-gradient(top, #FDA769, #ffdda3);
+    background-image: -o-linear-gradient(top, #FDA769, #ffdda3);
+    background-image: linear-gradient(to bottom, #FDA769, #ffdda3);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 2px 21px #666666;
+    font-family: Arial;
+    color: #000000;
+    font-size: 14px;
+    padding: 10px 13px 10px 13px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FAD6A5;
+  background-image: -webkit-linear-gradient(top, #FAD6A5, #F1D3B3);
+  background-image: -moz-linear-gradient(top, #FAD6A5, #F1D3B3);
+  background-image: -ms-linear-gradient(top, #FAD6A5, #F1D3B3);
+  background-image: -o-linear-gradient(top, #FAD6A5, #F1D3B3);
+  background-image: linear-gradient(to bottom, #FAD6A5, #F1D3B3);
+  text-decoration: none;
+  }
+ 
+   body {
+       font-family: 'Times New Roman', Times, serif;
+   }
+  
