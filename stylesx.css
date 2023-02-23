@@ -8,22 +8,27 @@
        align-content: center;
        padding: 10px 10px 10px 10px;
    }
-  nav{
-    margin-top: 0%;
-    margin-left:0%;
-    margin-right:0%;
-    height:30px;
-    width: 100%;
-    background-attachment: fixed;
-    background-color:rgba(0, 0, 0, 0.333);
-  }
+ nav{
+     background-color: hsl(0, 0%, 2%);
+     padding: 2%;
+     text-align: right;
+     color: white;
+
+   }
+ .mail {
+     color: #000000;
+   }
+
+   .mail:hover {
+     color: blue;
+   }
    .downbar{
        background-color:#C9D8B6;
    }
   
   iframe{
     height:600px;
-    width:700px;
+    width:90vw;
   }
 
    body {
